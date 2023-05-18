@@ -208,6 +208,10 @@ body.dark-theme{
         align-items: center;
     }
 
+    /* .nav__list li a{
+      color: var(--title-color);
+    } */
+
     .nav__link{
         color: var(--text-color-light);
         font-weight: var(--font-medium);
@@ -234,7 +238,6 @@ body.dark-theme{
   
   /* Active link */
 .active-link{
-  color: #ef918c;
   color: var(--title-color);
 }
 
@@ -683,6 +686,11 @@ body.dark-theme{
   
   /* For large devices */
 @media screen and (min-width: 1023px){
+
+  .nav__list li a{
+    color: var(--title-color);
+  }
+
   .section{
     padding: 7rem 0 1rem;
   }
@@ -729,8 +737,9 @@ body.dark-theme{
     box-shadow: none;
   }
 
+
   .products__container{
-    width: 954px;
+    max-width: 1120px;
   }
 
   .footer__content{
